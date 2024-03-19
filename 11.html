@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<h2>"Meet The Team"</h2>
+<p>welcome to veri tech company ,where a dedicated team of professionals works together to bring innovation ,creativity and entripse to software industry ,grt to know the individuals who make comapny thrive</p>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://img.freepik.com/free-photo/young-smiling-businesswoman_329181-11700.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>shaikamthulnoor</h2>
+        <p class="title">CEO & Founder</p>
+        <p>veri tech</p>
+        <p>veritech@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrEiuN7JVj43H17tbHKrMC4UTB8rwKeZPwpkpyRm290Nve3iGvV3ZVkOqG_W2n9Ig51DI&usqp=CAU alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>B.Priyansh</h2>
+        <p class="title">web developer</p>
+        <p>veri tech</p>
+        <p>veritech@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKpoJjpyiM27vMcaDPIXDlNV-VPucAxtGjvA69tOt6iG8tCLdx9SbL3XfcYBztbqje4G0&usqp=CAU" alt="triveni" style="width:100%">
+      <div class="container">
+        <h2>MD Amir</h2>
+        <p class="title">Team lead</p>
+        <p>SAP developer </p>
+        <p>verisap@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+<div class="column">
+  <div class="row">
+    <div class="card">
+      <img src="https://img.lovepik.com/free-png/20211105/lovepik-professional-self-feminine-smile-without-deduction-png-image_400308630_wh1200.png" alt="John" style="width:100%">
+      <div class="container">
+        <h2>G.Triveni</h2>
+        <p class="title">Marketing Manager</p>
+        <p>Marketing in veritech</p>
+        <p>verimarketing@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="column">
+  <div class="row">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsaqBp4Co4aTHYtojbk2hrOlAo6trifi4VwJ79BAV0TYwNLTnr5UrooSPEgHVfxE8j9G0&usqp=CAU"alt="John" style="width:100%">
+      <div class="container">
+        <h2>shaik Janimiya</h2>
+        <p class="title">Sales Manager</p>
+        <p>inside and outside in veritech</p>
+        <p>verimarketing@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="column">
+  <div class="row">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwJk_1FWk2jAIUaC5hvvSYfIrbHXDGXnr09S1Vt4FmEg&salt"alt="John"    style="width:100%">
+      <div class="container">
+        <h2>MD Afsar</h2>
+        <p class="title">Sales Manager</p>
+        <p>inside and outside sales in veritech</p>
+        <p>verimarketing@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
